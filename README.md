@@ -2,7 +2,7 @@
 
 ## Available Scripts
 
-In the project directory, you can install all the neccessary modules:
+Install all the neccessary modules:
 
 ### `npm install` or `npm install -f`
 
