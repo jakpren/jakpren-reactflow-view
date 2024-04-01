@@ -1,0 +1,67 @@
+.Panel-Button {
+  margin-right: 2px;
+}
+
+.react-flow__handle {
+  /* opacity: 0; */
+  position: absolute;
+  pointer-events: none;
+  min-width: 5px;
+  min-height: 5px;
+  width: 6px;
+  height: 6px;
+  background: #1a192b;
+  border: 0px solid white;
+  border-radius: 100%;
+}
+
+.rf-swimlane .react-flow__handle {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  min-width: 5px;
+  min-height: 5px;
+  width: 6px;
+  height: 6px;
+  background: #1a192b;
+  border: 0px solid white;
+  border-radius: 100%;
+}
+
+/*.react-flow__edge-path,
+.react-flow__connection-path {
+  stroke: #959b9d;
+  stroke-width: 4;
+  fill: none;
+}*/
+
+/* edge line */
+.react-flow__node {
+  /* width: auto !important;*/
+  border: 1px solid #bbb;
+}
+
+
+.react-flow__node-default, .react-flow__node-input, .react-flow__node-output {
+  min-width: 140px;
+}
+
+/*.rf-aside > .react-flow__node-default {
+  width: 100px;
+}*/
+
+/* edges */
+
+.foreignObjectContent {
+  background: white;
+  text-align: center;
+  /* font-size: 12px; */
+}
+
+/* .react-flow__edge:focus .foreignObjectContent {
+  font-weight: 600 !important;
+  color: #7801ff !important;
+  z-index: 2;
+} */
+
+/* edges end*/

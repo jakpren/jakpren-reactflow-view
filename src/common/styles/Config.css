@@ -1,0 +1,109 @@
+/* Button Edge*/
+.edgebutton {
+  width: 20px;
+  height: 20px;
+  background: #eee;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.edgebutton:hover {
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.08);
+}
+
+/* edges */
+.react-flow__edge.selected .react-flow__edge-path, .react-flow__edge:focus .react-flow__edge-path, .react-flow__edge:focus-visible .react-flow__edge-path {
+    stroke: #555;
+    stroke-width: 3px;
+}
+/* edges end*/
+/* Button Edge ends*/
+
+/* dndflow */
+.dndflow {
+  flex-direction: column;
+  display: flex;
+  height: 750px;
+}
+
+.rf-aside {
+  border-right: 1px solid #eee;
+  padding: 15px 10px;
+  font-size: 14px;
+  /* background: #fcfcfc; */
+  /* height: auto; */
+}
+
+.rf-aside > * {
+  margin-bottom: 10px;
+  cursor: grab;
+}
+
+.rf-description {
+  margin-bottom: 10px;
+}
+
+.rf-wrapper {
+  flex-grow: 1;
+  /*height: 100%;*/
+  height: 750px;
+}
+
+@media screen and (min-width: 768px) {
+  .rf-aside {
+    width: 20%;
+    max-width: 180px;
+  }
+
+  .dndflow {
+    flex-direction: row;
+  }
+}
+
+/* dndflow ends */
+
+/* download diagram as image */
+.download-image.react-flow {
+  /*background: #1a365d;*/
+}
+
+.download-image .react-flow__node {
+  width: 50px;
+  height: 50px;
+  /*color: white;*/
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: white;
+}
+
+.download-image .react-flow__node-custom {
+  font-size: 12px;
+  /* background: #eee;*/
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.download-image .react-flow__node-custom .react-flow__handle-right {
+  transform: none;
+}
+
+.download-image .download-btn {
+  border: 1px solid #eee;
+  /* background: #ebf8ff;*/
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.download-image .download-btn:hover {
+  opacity: 0.9;
+}
+/* download diagram as image ends */
